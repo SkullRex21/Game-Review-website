@@ -35,3 +35,35 @@ center {
 body{
     font-family: Arial, Helvetica, sans-serif
 }
+
+.banner {
+    background-color: aqua;
+    
+    border-width: 5px;
+    border-style: solid;
+    border-color: coral;
+    border-radius: 8px;
+    
+    width: 80%;
+    padding: 8px;
+    
+}
+
+.profile card {
+    width: 300px;
+    padding: 16px;
+    margin: 12px;
+    border: 2px solid #444;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0,8);
+    box-sizing: border-box;
+}
+
+avatar{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 12px;
+}
+
