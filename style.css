@@ -44,15 +44,14 @@ body{
 .banner {
     background-color: #00888e;
     
-    
     border-width: 5px;
     border-style: dashed;
     border-color: darkslategrey;
     border-radius: 3px;
-    
+
     width: 50%;
     padding: 3px;
-    
+    margin: auto
     
 }
 
