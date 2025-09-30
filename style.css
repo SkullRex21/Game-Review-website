@@ -33,19 +33,25 @@ center {
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 2000px 1000px;
 }
 
 .banner {
-    background-color: aqua;
+    background-color: #00888e;
+    
     
     border-width: 5px;
-    border-style: solid;
-    border-color: coral;
-    border-radius: 8px;
+    border-style: dashed;
+    border-color: darkslategrey;
+    border-radius: 3px;
     
     width: 50%;
-    padding: 8px;
+    padding: 3px;
     
     
 }
