@@ -17,7 +17,7 @@ p {
 }
 
 a{
-    color: #005fe2
+    color: #000000
 }
 
 
@@ -45,7 +45,7 @@ body{
     
     border-width: 5px;
     border-style: dashed;
-    border-color: darkslategrey;
+    border-color: #2f4f4f;
     border-radius: 3px;
 
     width: 50%;
@@ -75,8 +75,52 @@ table{
     align-content: center;
     display: inline-block;
     border-collapse: collapse;
-    background-color: darkturquoise;
-    border-color: #000000;
+    background-color: #00888e;
+    border-color: #2f4f4f;
     
 }
 
+.navbar{
+    text-align: center;
+    width:100%;
+    
+}
+
+/* stuff that doesnt change */
+.navbutton{
+    background-color: #00888e;
+    border: 2px groove #2f4f4f;
+    
+   
+    height:60px;
+    
+    padding:10px;
+}
+
+/* default - mobile */
+.navbutton {
+    width:100%;
+    margin:-2px;
+    
+}
+
+/* table and up */
+@media (min-width: 768px){
+    .navbutton{
+        display: inline-block;
+        width:25%;
+        margin:-4px;
+        
+    }
+}
+
+/* large desktop */
+@media (min-width: 1024px){
+    .navbutton{
+        display: inline-block;
+        width:150px;
+        margin:10px;
+        
+        
+    }
+}
