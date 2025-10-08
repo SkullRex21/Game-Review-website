@@ -80,6 +80,41 @@ table{
     
 }
 
+.gamecon{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 20px
+}
+
+.gamebox{
+    background-color: #00888e;
+    border: 1px solid #2f4f4f;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.gamebox a{
+    text-decoration: underline;
+    color: black;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.gamebox img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 2px solid #2f4f4f;
+    background-color: white;
+
+}
 
 .navbar{
     text-align: center;
