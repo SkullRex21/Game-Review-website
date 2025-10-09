@@ -10,6 +10,21 @@ h2 {
     text-align: center;
 }
 
+.funfacts{
+    text-align: center;
+}
+
+.funfacts ul{
+    display: inline-block;
+    text-align: left;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+li{
+    text-align: center;
+}
+
 p {
     color: #2a4845;
     text-align: center;
