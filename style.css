@@ -69,15 +69,7 @@ body{
     
 }
 
-.profile card {
-    width: 300px;
-    padding: 16px;
-    margin: 12px;
-    border: 2px solid #444;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0,8);
-    box-sizing: border-box;
-}
+
 
 avatar{
     width: 64px;
@@ -155,7 +147,7 @@ table{
 
 /* default - mobile */
 .navbutton {
-    width:75;
+    width:75px;
     margin:-2px;
     
 }
