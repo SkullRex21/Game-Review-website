@@ -174,3 +174,24 @@ table{
     }
 }
 
+/* default - mobile */
+youtube_video{
+   width: 100%; 
+}
+
+/* table and up */
+@media (min-width: 768px){
+    youtube_video{
+       width: 560px; 
+    }
+}
+
+/* large desktop */
+@media (min-width: 1024px){
+    youtube_video{
+       width: 560px;
+    }
+}
+
+
+
