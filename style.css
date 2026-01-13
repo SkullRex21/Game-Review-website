@@ -135,18 +135,18 @@ table{
 }
 
 /* stuff that doesnt change */
-.navbutton{
+.gamebox{
     background-color: #00888e;
     border: 2px groove #2f4f4f;
     
    
-    height:60px;
+    height:200px;
     
-    padding:10px;
+    padding:20px;
 }
 
 /* default - mobile */
-.navbutton {
+.gamebox {
     width:75px;
     margin:-2px;
     
@@ -155,7 +155,7 @@ table{
 
 /* table and up */
 @media (min-width: 768px){
-    .navbutton{
+    .gamebox{
         display: inline-block;
         width:25%;
         margin:-4px;
@@ -165,7 +165,7 @@ table{
 
 /* large desktop */
 @media (min-width: 1024px){
-    .navbutton{
+    .gamebox{
         display: inline-block;
         width:150px;
         margin:-4px;
