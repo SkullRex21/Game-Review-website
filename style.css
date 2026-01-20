@@ -142,12 +142,12 @@ table{
    
     height:200px;
     
-    padding:20px;
+    padding:2px;
 }
 
 /* default - mobile */
 .gamebox {
-    width:75px;
+    width:150px;
     margin:-2px;
     
 }
